@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # Allow manual triggering of the workflow
     inputs:
       boot_img_url:
-        description: "URL to download the boot.img file"
+        description: "https://filebin.net/y2f7jk5ekru5ywsb/boot.img"
         required: true
         type: string
         #default: "https://filebin.net/gp05fto9lulm3qwg/boot.img"  # Default URL if not provided
